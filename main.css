@@ -1,0 +1,80 @@
+* {
+    text-align: center;
+}
+
+.container {
+    background-image: url('pizzeria.jpg');
+    background-image: no-repeat;
+    background-image: cover;
+    text-align: center;
+    width: 1800px;
+    margin: auto;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+#container1, #container2 {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+#bonus {
+    margin-left: 5%;
+}
+
+
+#display {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #f80202;
+    line-height: 6em;
+    color: white;
+}
+#save {
+    margin-top: 5%;
+}
+
+
+h4 {
+    font-size: 28px;
+    color: #fff;
+    background-color: black;
+    text-align : center;
+}
+#save, #load, #buyCursorBtn, #autoCursor,#clic, #bonusBtn {
+	border:none;
+	padding:6px 0 6px 0;
+	border-radius:2px;
+	background:#fff;
+    color:rgb(0, 0, 0);
+    width: 50px;
+}
+#save:hover , #load:hover, #buyCursorBtn:hover, #autoCursor:hover, #clic:hover, #bonusBtn:hover {
+    background-color: #000000;
+    color: white;
+    border-radius: 25px;
+    
+}
+#multiply {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Gamja Flower', cursive;
+    font-size: 26px;
+    color: #ffffff;
+    text-shadow: 1px 2px 3px #000000;
+}
+#autoCursor, #buyCursorBtn, #autoclicker, #clic, #bonusBtn {
+    width: 250px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#bonusTime {
+    grid-column: 1;
+    grid-row: 3;
+}
